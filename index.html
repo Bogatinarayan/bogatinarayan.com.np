@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+ .container {
+  width: 960px; /* Fixed width for desktop */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* This is only for tast */
+button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #f1f1f1;
+  border: none;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.a {
+  margin: 0;
+}
+
+
+
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 10px;
+    }
+    
+    .video-grid iframe {
+      width: 100%;
+      height: 100px;
+    }
+
+
+.comment-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.comment-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.comments {
+  margin-bottom: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comment-author {
+  font-weight: bold;
+}
+
+.comment-content {
+  margin-top: 5px;
+}
+
+.comment-form {
+  margin-bottom: 20px;
+}
+
+.comment-form h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.comment-input {
+  width: 100%;
+  height: 150px;
+  resize: vertical;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+  ol {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+
+    nn {
+      background-image: url('/storage/emulated/0/htmlproject/youtubepic.png');
+      width: 100px;
+      height:10px;
+      background-position: center;
+    }
+
+    .box-button {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: #f1f1f1;
+      border: none;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      border: 1px solid #000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.7);
+      color: #000;
+      padding: 20px 10px; /* Increased top and bottom padding */
+      z-index: 999;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeofCLBsTq0GPIkKmQZB_kGZGqgQqiJDS1rYN9Syff&s');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .navbar ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .navbar ul li a {
+      color: #000;
+      text-decoration: none;
+      padding: 20px;
+      border: 1px solid #000;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar ul li.login {
+      flex-grow: 1;
+    }
+
+    .navbar ul li.login a {
+      display: block;
+      width: 100%;
+    }
+
+    .content {
+      padding-top: 100px; /* Increased top padding to prevent overlapping */
+    }
+
+    @media (max-width: 768px) {
+      .navbar ul li {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li class="login"><a href="#login">Login</a></li>
+      <li><a href="#services">Services</a></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <!-- The rest of your website content goes here -->
+  </div>
+   <button>  
+  
+   <h1 class="a">Welcome to Cyber World</h1>   </button>
+ 
+
+
+
+  <div class="video-grid">
+    <!-- First row of videos -->
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="50px" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="10px" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="50" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="30px" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    
+    <!-- Second row of videos -->
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    
+    <!-- Third row of videos -->
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    
+    <!-- Fourth row of videos -->
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    
+    <!-- Fifth row of videos -->
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+       <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+ <div class="comment-section">
+  <h2>Comments</h2>
+  
+  <div class="comments">
+    <div class="comment">
+      <span class="comment-author">Narayan Bogati:</span>
+      <p class="comment-content">Give a comment about our course demo of cyber security and Ethicl hacking</p>
+    </div>
+    
+    <div class="comment">
+      <span class="comment-author">Everest Hacking course</span>
+      
+    </div>
+    
+    <!-- Add more comments here -->
+  </div>
+  
+  <form class="comment-form">
+    <h3>Add a Comment</h3>
+    <textarea class="comment-input" placeholder="Write your comment here..."></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
+
+
+
+<ol>
+  <li>
+    Ctrl + C
+    <ul>
+      <li>Copy selected text or object</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + V
+    <ul>
+      <li>Paste copied text or object</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + X
+    <ul>
+      <li>Cut selected text or object</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + Z
+    <ul>
+      <li>Undo the previous action</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + Y
+    <ul>
+      <li>Redo the previously undone action</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + S
+    <ul>
+      <li>Save the current document or file</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + P
+    <ul>
+      <li>Print the current document or file</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + F
+    <ul>
+      <li>Find text or content within a document or webpage</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + A
+    <ul>
+      <li>Select all text or objects</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + B
+    <ul>
+      <li>Toggle bold formatting</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + I
+    <ul>
+      <li>Toggle italic formatting</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + U
+    <ul>
+      <li>Toggle underline formatting</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + F5
+    <ul>
+      <li>Refresh the current webpage or document</li>
+    </ul>
+    <hr>
+  </li>
+  <li>
+    Ctrl + Tab
+    <ul>
+      <li>Switch between open tabs or documents</li>
+    </ul>
+  </li>
+</ol>
+
+
+
+<div class="nnb">    
+  
+  <a href="test.html" target="_blank">
+    <img src="youtubepic.png" alt="Image" class="box-button"width="100px" height="100px">
+  
+
+  </div>
+  
+
+
+  
+</body>
+</html>
